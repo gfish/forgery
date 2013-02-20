@@ -4,6 +4,10 @@ class Forgery
     @@dictionaries ||= Dictionaries.new
   end
 
+  def self.assets
+    @@assets ||= Assets.new
+  end
+
   def self.formats
     @@formats ||= Formats.new
   end
